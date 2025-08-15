@@ -1,0 +1,65 @@
+%% Esse arquivo foi produzido com base no arquivo FCEFyN-paper.tex, template das publicações da "Revista de la Facultad de Ciencias Exactas, Físicas y Naturales
+%% de la Universidad Nacional de Córdoba, Argentina.
+
+%% Originalmente feito por Ana Luiza Martins Karl, 17/06/2019
+
+%% Revisado por Matheus Muller Pereira da Silva, 18/07/2019
+
+%% Atualizado por José Renato Duarte Fajardo 15/08/2025
+
+%% Em caso de problemas, envie um e-mail para eamc@lncc.br
+\documentclass{eamc-class}
+
+
+% pacote para gerar "dummy text", 
+% comente para inserir seu texto
+\usepackage{lipsum} 
+
+% Título do trabalho
+\title{Example for EAMC Abstract}
+
+% Título curto para cabeçalho
+\shorttitle{Example for EAMC Abstract}
+       
+% Autores
+\author[1]{Full name of first author}
+\author[2]{Full name of second author}
+\author[1,2]{Full name of third author}
+
+% Instituições 
+\affil[1]{Institute A, Petrópolis/RJ, Brazil}
+\affil[2]{Institute B, Petrópolis/RJ, Brazil}
+
+
+% Sobrenome do primeiro autor para cabeçalho
+\firstauthor{Last name of first author}
+
+% Contato do autor para serem disponibilizados
+\contactauthor{Name}
+\email{email@email.com}  %email
+
+% Dados da publicação
+\thisvolume{Anais do XIX EAMC}
+\thisyear{2026}
+
+% Inicio do documento
+\begin{document}
+
+
+% Resumo e palavras chave
+\abstract{This paper may be written in English or Portuguese. It should contain the main objectives, methodology and expected results of the
+submitted work. Figures or equations are allowed in the abstract. References should be cited in the text using, for example, \cite{ArslanHansen1996} or \citep{ArslanHansen1996}.}
+
+\keywords{
+First keyword, Second keyword, Third keyword (up to 5 keywords)}
+
+% Inclui titulo, resumo e palavras chave
+\maketitle
+\thispagestyle{fancy}
+\printcontactdata
+
+% Referencias
+\insertbibliography{eamc-ref.bib}
+
+
+\end{document}
