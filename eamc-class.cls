@@ -28,6 +28,12 @@
 \usepackage{url} \Urlmuskip=0mu plus 1mu % break url lines
 \usepackage{tabto}
 
+% \usepackage{lmodern}
+% \usepackage{lipsum} 
+\usepackage{newpxtext}
+\usepackage{lipsum}
+
+
 % \usepackage{amsmath}
 % \usepackage{amsfonts}
 % \usepackage{amssymb}
